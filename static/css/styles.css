@@ -5,7 +5,6 @@
   font-family: Arial, sans-serif;
 }
 
-/* Corpo da página */
 body {
   background-color: #f5f5f5;
   color: #333;
@@ -13,7 +12,6 @@ body {
   padding: 20px;
 }
 
-/* Cabeçalho */
 h1 {
   margin-bottom: 20px;
   color: #222;
@@ -24,7 +22,6 @@ h2 {
   color: #444;
 }
 
-/* Links */
 a {
   color: #1d4ed8;
   text-decoration: none;
@@ -34,7 +31,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Listas */
 ul {
   list-style: none;
   padding-left: 0;
@@ -48,7 +44,6 @@ li {
   border: 1px solid #ccc;
 }
 
-/* Formulários */
 form {
   background: #fff;
   padding: 15px;
@@ -70,7 +65,6 @@ textarea {
   border: 1px solid #999;
 }
 
-/* Botões */
 button, a.button {
   display: inline-block;
   padding: 8px 12px;
@@ -103,7 +97,6 @@ button.danger:hover {
   background-color: #b91c1c;
 }
 
-/* Footer */
 footer {
   margin-top: 30px;
   padding-top: 10px;
