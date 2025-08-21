@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Corpo da página */
+body {
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.5;
+  padding: 20px;
+}
+
+/* Cabeçalho */
+h1 {
+  margin-bottom: 20px;
+  color: #222;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #444;
+}
+
+/* Links */
+a {
+  color: #1d4ed8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Listas */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+/* Formulários */
+form {
+  background: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  max-width: 500px;
+}
+
+form p {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #999;
+}
+
+/* Botões */
+button, a.button {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 6px;
+  background-color: #1d4ed8;
+  color: white;
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button:hover, a.button:hover {
+  background-color: #2563eb;
+}
+
+a.button.secondary {
+  background-color: #6b7280;
+}
+
+a.button.secondary:hover {
+  background-color: #4b5563;
+}
+
+button.danger {
+  background-color: #dc2626;
+}
+
+button.danger:hover {
+  background-color: #b91c1c;
+}
+
+/* Footer */
+footer {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid #ccc;
+  color: #555;
+  text-align: center;
+}

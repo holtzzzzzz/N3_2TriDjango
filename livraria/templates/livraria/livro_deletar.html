@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Excluir Livro</title>
+  <link rel="stylesheet" href="/static/css/estilos.css">
+</head>
+<body>
+  <h1>Excluir Livro</h1>
+  <p>Tem certeza que deseja excluir <b>{{ livro.titulo }}</b>?</p>
+  <form method="post">
+    {% csrf_token %}
+    <button type="submit">Sim, excluir</button>
+    <a href="/livros/{{ livro.pk }}/">Cancelar</a>
+  </form>
+</body>
+</html>
