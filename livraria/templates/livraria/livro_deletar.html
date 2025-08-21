@@ -8,10 +8,11 @@
 <body>
   <h1>Excluir Livro</h1>
   <p>Tem certeza que deseja excluir <b>{{ livro.titulo }}</b>?</p>
+
   <form method="post">
     {% csrf_token %}
-    <button type="submit">Sim, excluir</button>
-    <a href="/livros/{{ livro.pk }}/">Cancelar</a>
+    <button type="submit" class="danger">Sim, excluir</button>
+    <a href="/livros/{{ livro.pk }}/" class="button secondary">Cancelar</a>
   </form>
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Detalhes do Livro</title>
-  <link rel="stylesheet" href="/static/css/setyles.css">
+  <link rel="stylesheet" href="/static/css/styles.css">
 </head>
 <body>
   <h1>{{ livro.titulo }}</h1>
@@ -11,8 +11,8 @@
   <p><b>Ano:</b> {{ livro.ano_publicacao }}</p>
   <p><b>Sinopse:</b> {{ livro.sinopse }}</p>
 
-  <a href="/livros/{{ livro.pk }}/editar/">Editar</a> |
-  <a href="/livros/{{ livro.pk }}/excluir/">Excluir</a> |
+  <a href="{% url 'livraria:livro_editar' livro.pk %}">Editar</a>
+  <a href="{% url 'livraria:livro_excluir' livro.pk %}">Excluir</a>
   <a href="/">Voltar</a>
 </body>
 </html>
