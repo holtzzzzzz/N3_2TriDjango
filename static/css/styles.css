@@ -27,10 +27,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 ul {
   list-style: none;
   padding-left: 0;
@@ -75,32 +71,4 @@ button, a.button {
   border: none;
   text-decoration: none;
   cursor: pointer;
-}
-
-button:hover, a.button:hover {
-  background-color: #2563eb;
-}
-
-a.button.secondary {
-  background-color: #6b7280;
-}
-
-a.button.secondary:hover {
-  background-color: #4b5563;
-}
-
-button.danger {
-  background-color: #dc2626;
-}
-
-button.danger:hover {
-  background-color: #b91c1c;
-}
-
-footer {
-  margin-top: 30px;
-  padding-top: 10px;
-  border-top: 1px solid #ccc;
-  color: #555;
-  text-align: center;
 }
