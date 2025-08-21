@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <title>Detalhes do Livro</title>
+  <link rel="stylesheet" href="/static/css/estilos.css">
+</head>
+<body>
+  <h1>{{ livro.titulo }}</h1>
+  <p><b>Autor:</b> {{ livro.autor }}</p>
+  <p><b>Ano:</b> {{ livro.ano_publicacao }}</p>
+  <p><b>Sinopse:</b> {{ livro.sinopse }}</p>
+
+  <a href="/livros/{{ livro.pk }}/editar/">Editar</a> |
+  <a href="/livros/{{ livro.pk }}/excluir/">Excluir</a> |
+  <a href="/">Voltar</a>
+</body>
+</html>
